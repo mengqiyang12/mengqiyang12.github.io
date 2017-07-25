@@ -1,0 +1,373 @@
+/*顶部开始*/
+
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+.dorpdown {
+    padding: 0 10px;
+}
+.dorpdown i {
+    display: inline-block;
+    line-height: 15px;
+    height: 7px;
+    width: 15px;
+    position: relative;
+    overflow: hidden;  /*超出的部分隐藏*/
+}
+.dorpdown i span {
+    display: inline-block;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+.dorpdown i span:hover {
+    top: 0;
+    left: 0;
+}
+
+
+.shortcut  ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+
+.shortcut .line {
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+    padding: 0;
+    margin-top: 9px;
+}
+.shortcut em {
+    display: inline-block;
+    height: 20px;
+    width: 14px;
+    background: url(../images/tel.png) no-repeat;
+    vertical-align: middle;
+    margin: 0 2px;
+
+}
+.red {
+    color: #C81623;
+}
+
+/*导航开始*/
+.logo {
+    height: 60px;
+    width: 360px;
+    padding: 20px 0;
+    float: left;
+}
+.logo a {
+    height: 60px;
+    width: 270px;
+    display: inline-block;
+    text-indent: -99999px;
+    background: url(../images/logo.png) no-repeat left center;
+}
+.search {
+    height: 30px;
+
+    background-color: pink;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.search input {
+    width: 446px;
+    height: 30px;
+    border: 2px solid #C81623;
+    float: left;
+    padding-left: 10px;
+    color: #666666;
+    outline: none;
+    font-weight: 700;
+
+}
+.search button {
+    width:82px ;
+    height: 36px;
+    background-color: #C81623;
+    outline: none;
+    border: none;
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+
+}
+.car {
+    height: 35px;
+    width: 125px;
+    margin-top: 25px;
+    line-height: 35px;
+    float: right;
+    border: 1px solid #DFDFDF;
+    padding-left: 15px;
+    position: relative;
+}
+.car em {
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    background: url(../images/tel.png) no-repeat 0 -90px;
+    vertical-align: middle;
+    margin: 0 6px 0 5px;
+}
+.car i {
+    font: 400 13px/13px simsun;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.car span {
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    top: -3px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    line-height: 14px;
+    color: #fff;
+    border-radius: 50% 50% 50% 0;  /*css3的应用*/
+}
+.hotwords {
+    height: 32px;
+    width: 533px;
+    line-height: 32px;
+    float: left;
+
+}
+
+.hotwords ul li {
+    float: left;
+    padding: 0 3px;
+    white-space: nowrap;
+}
+/*导航开始*/
+.nav-content {
+    height: 43px;
+}
+.nav-t {
+    height: 43px;
+    border-bottom: 2px solid #C81623;
+}
+.nav-l {
+    height: 43px;
+    width: 200px;
+    background-color: #B1191A;
+    font-size: 16px;
+    line-height: 43px;
+
+    color: white;
+    position: relative;
+    margin-right: 10px;
+    padding-left: 10px;
+
+}
+.nav-l i {
+    float: right;
+    margin-top: 20px;
+}
+.nav-m {
+    height: 43px;
+    line-height: 43px;
+    width: 790px;
+}
+.nav-m li {
+    float: left;
+    margin-left: 30px;
+}
+.nav-m li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*产品导航开始*/
+
+.product-nav {
+    height: 480px;
+
+}
+
+.product-nav .left {
+    width: 200px;
+    height: 466px;
+
+    margin-right: 10px;
+    float: left;
+    padding-left: 10px;
+    background-color: #C81623;
+}
+.product-nav .middle {
+    margin-top: 12px;
+    height: 454px;
+    width: 730px;
+    background: url(../images/focus.jpg);
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.middle ul {
+    width: 140px;
+    height: 18px;
+    bottom: 10px;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+}
+.middle ul li {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    float: left;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.middle a {
+    height: 62px;
+    width: 28px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: "simsun";
+    font-size: 20px;
+    line-height: 62px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.san .san-r {
+    right: 0;
+}
+
+.product-nav .right {
+    width: 248px;
+    height: 454px;
+    float: right;
+    margin-top: 12px;
+    background-color: pink;
+}
+
+
+.product-nav .left li {
+    width: 200px;
+    height: 31px;
+    line-height: 31px;
+
+}
+.product-nav .left li i {
+    float: right;
+    color: #ffffff;
+    font: 400 13px/31px simsun;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.product-nav .left a {
+
+    color: #ffffff;
+    font-size: 14px;
+
+
+
+}
+
+/*底部开始*/
+.news {
+    height: 98px;
+    background-color:#F5F5F5;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news-content li {
+    width: 300px;
+    height: 98px;
+    background: url(../images/slo1.png) no-repeat left center;
+    float: left;
+}
+.news-content .quick {
+    background: url(../images/slo2.png) no-repeat left center;
+}
+
+.news-content .good {
+    background: url(../images/slo3.png) no-repeat left center;
+}
+.news-content .sheng {
+    background: url(../images/slo4.png) no-repeat left center;
+}
+
+/*购物指南*/
+.shopPoint {
+    border-bottom: 1px solid #757575;
+    height: 200px;
+}
+.shopPoint dl {
+    width: 198px;
+    float: left;
+}
+.shopPoint dt {
+    height: 30px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei;
+}
+.shopPoint dd {
+    height: 20px;
+}
+.shopPoint .map {
+
+    height: 169px;
+    width: 188px;
+    background: url(../images/jds.png) no-repeat 0 -132px;
+    float: right;
+}
+
+.map p  {
+    line-height: 20px;
+    margin-top: 18px;
+}
+.map .look {
+    text-align: right;
+}
+
+
+/*友情链接 最底部*/
+.footer-b {
+    height: 180px;
+    padding-top: 20px;
+    text-align: center;
+}
+.us {
+    margin-bottom: 8px;
+}
+.footer-b a {
+    margin:  5px;
+}
+.footer-b p {
+    line-height: 24px;
+}
+
+.brand {
+    margin-top: 10px;
+}
+
+.brand a {
+    display: inline-block;
+    height: 32px;
+    width: 103px;
+    background: url(../images/jy.png) no-repeat;
+}
